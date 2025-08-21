@@ -6,7 +6,9 @@ Mon portfolio en ligne, développé avec **Next.js** et **TypeScript**, présent
 
 - **Next.js** – framework React pour des applications web rapides et scalables  
 - **TypeScript** – typage statique pour plus de fiabilité  
-- **Tailwind CSS** – pour le design responsive et moderne  
+- **Tailwind CSS** – pour le design responsive et moderne
+- **shadcnUI** - composants UI accessibles et élégants, basés sur Radix et Tailwind
+- **Vercel** - plateforme d’hébergement optimisée pour Next.js, avec déploiement continu
 
 ## Lancer le projet en local
 
