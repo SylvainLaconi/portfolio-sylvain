@@ -20,6 +20,8 @@ git clone https://github.com/SylvainLaconi/portfolio-sylvain.git
 npm install
 # ou
 yarn install
+# ou
+pnpm install
 ```
 
 3. Lancer le serveur de développement
@@ -27,6 +29,8 @@ yarn install
 npm run dev
 # ou
 yarn dev
+# ou
+pnpm dev
 ```
 
 
