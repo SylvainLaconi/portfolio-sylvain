@@ -1,12 +1,12 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
-import Image from 'next/image'
-import Link from 'next/link'
+} from '../ui/dropdown-menu'
 
 export default function BurgerMenu() {
   return (

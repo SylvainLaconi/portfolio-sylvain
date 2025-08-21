@@ -1,4 +1,5 @@
 import AnimateOnScroll from '@/lib/animate-on-scroll'
+import { Button } from '../ui/button'
 
 export default function AboutMeSection() {
   return (
@@ -28,6 +29,14 @@ export default function AboutMeSection() {
           évolutives et centrées sur les besoins métiers.
         </p>
       </AnimateOnScroll>
+
+      <div className="flex w-full justify-center">
+        <AnimateOnScroll delay={600}>
+          <a href="/api/cv" download>
+            <Button>Télécharger mon CV</Button>
+          </a>
+        </AnimateOnScroll>
+      </div>
     </div>
   )
 }
