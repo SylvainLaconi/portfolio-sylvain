@@ -12,7 +12,7 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: 'Portfolio développeur fullstack - Sylvain Laconi',
   description:
-    'Freelance fullstack spécialisé en Next.js, TypeScript, Webflow et Retool. Applications web, SaaS et sites vitrines optimisés pour performance et visibilité.',
+    'Freelance fullstack basé à Colombes, Île-de-France, je conçois des applications web, SaaS et sites vitrines performants avec Next.js, TypeScript, Webflow et Retool, alliant qualité technique et optimisation pour la visibilité en ligne.',
 }
 
 export default function RootLayout({
