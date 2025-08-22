@@ -22,7 +22,7 @@ export default function PortfolioSection() {
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
         {projects.map((project, index) => (
-          <AnimateOnScroll key={project.id} delay={600 + index * 200}>
+          <AnimateOnScroll key={project.id} delay={600 + (index % 3) * 200}>
             <ProjectCard project={project} />
           </AnimateOnScroll>
         ))}
