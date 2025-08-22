@@ -5,7 +5,7 @@ import ProjectCard from '../cards/project-card'
 
 export default function PortfolioSection() {
   return (
-    <SectionLayout id="portfolio" isWhite>
+    <SectionLayout id="portfolio" color="white">
       <div className="flex flex-col gap-4">
         <AnimateOnScroll delay={200}>
           <h2 className="text-2xl font-semibold uppercase md:text-3xl">
