@@ -1,12 +1,10 @@
 import AnimateOnScroll from '@/lib/animate-on-scroll'
 import { Button } from '../ui/button'
+import SectionLayout from '@/app/layouts/section-layout'
 
 export default function AboutMeSection() {
   return (
-    <div
-      id="about-me"
-      className="container flex w-screen flex-col gap-8 px-2.5 py-10 md:mx-auto md:w-auto md:gap-16 md:px-0 md:py-20"
-    >
+    <SectionLayout id="about-me">
       <AnimateOnScroll delay={200}>
         <h2 className="text-2xl font-semibold uppercase md:text-3xl">
           À propos de moi
@@ -40,6 +38,6 @@ export default function AboutMeSection() {
           </a>
         </AnimateOnScroll>
       </div>
-    </div>
+    </SectionLayout>
   )
 }

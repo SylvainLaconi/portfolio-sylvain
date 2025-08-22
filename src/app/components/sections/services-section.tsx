@@ -3,13 +3,11 @@ import ServiceCard from '../cards/service-card'
 import services from '@/data/services.json'
 import { Button } from '../ui/button'
 import Link from 'next/link'
+import SectionLayout from '@/app/layouts/section-layout'
 
 export default function ServicesSection() {
   return (
-    <div
-      id="services"
-      className="container flex w-screen flex-col gap-8 px-2.5 py-10 md:mx-auto md:w-auto md:gap-16 md:px-0 md:py-20"
-    >
+    <SectionLayout id="services">
       <AnimateOnScroll delay={200}>
         <h2 className="text-2xl font-semibold uppercase md:text-3xl">
           Mes services
@@ -25,12 +23,12 @@ export default function ServicesSection() {
       </div>
 
       <div className="flex w-full justify-center">
-        <AnimateOnScroll delay={600}>
+        <AnimateOnScroll delay={800}>
           <Link href="/#contact">
             <Button>Discutons de votre projet</Button>
           </Link>
         </AnimateOnScroll>
       </div>
-    </div>
+    </SectionLayout>
   )
 }
