@@ -20,17 +20,19 @@ export default function BurgerMenu() {
         />
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuItem>
-          <Link href="/">À propos de moi</Link>
+        <DropdownMenuItem asChild>
+          <Link href="/#about">À propos de moi</Link>
         </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href="/">Mes services</Link>
+        <DropdownMenuItem asChild>
+          <Link href="/#services">Mes services</Link>
         </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href="/">Portfolio</Link>
+        <DropdownMenuItem asChild>
+          <Link href="/#portfolio">Portfolio</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>Discutons de votre projet</DropdownMenuItem>
+        <DropdownMenuItem asChild>
+          <Link href="/#contact">Discutons de votre projet</Link>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )

@@ -14,7 +14,7 @@ export default function ServicesSection() {
         </h2>
       </AnimateOnScroll>
 
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-16">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16 lg:grid-cols-3">
         {services.map((service, index) => (
           <AnimateOnScroll key={service.id} delay={400 + index * 200}>
             <ServiceCard service={service} />

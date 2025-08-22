@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title_card": "Arty Squad",
+    "description_card": "Marketplace - Webflow | Memberstack",
+    "image": "/images/projects/arty-squad.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Webflow", "Memberstack", "Finsweet Attributes", "Javascript"]
+  },
+  {
+    "id": 2,
+    "title_card": "Desoutter Tools",
+    "description_card": "Webapp - Next.js | DatoCMS",
+    "image": "/images/projects/desoutter.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "DatoCMS", "TailwindCSS", "Typescript"]
+  },
+  {
+    "id": 3,
+    "title_card": "École de Natation Française",
+    "description_card": "Webapp - Next.js | Directus",
+    "image": "/images/projects/ffn.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "Directus", "TailwindCSS", "Typescript"]
+  },
+  {
+    "id": 4,
+    "title_card": "Greenloc",
+    "description_card": "Webapp - Next.js | Nest.js | GraphQL",
+    "image": "/images/projects/greenloc.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "Nest.js", "GraphQL", "MikroORM", "Typescript"]
+  },
+  {
+    "id": 5,
+    "title_card": "Maesina",
+    "description_card": "Site vitrine - Webflow",
+    "image": "/images/projects/maesina.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"]
+  },
+  {
+    "id": 6,
+    "title_card": "Mister Vincent",
+    "description_card": "Site vitrine - Next.js",
+    "image": "/images/projects/mister-vincent.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "TailwindCSS", "Typescript"]
+  },
+  {
+    "id": 7,
+    "title_card": "Nicholas Angell",
+    "description_card": "Site vitrine - Webflow",
+    "image": "/images/projects/nicholas-angell.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"]
+  },
+  {
+    "id": 8,
+    "title_card": "Weturn",
+    "description_card": "Webapp - Next.js | Nest.js",
+    "image": "/images/projects/valo.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "Nest.js", "TailwindCSS", "Prisma", "Typescript", "PostgreSQL"]
+  },
+  {
+    "id": 9,
+    "title_card": "Wastescan",
+    "description_card": "Webapp - Next.js | Supabase",
+    "image": "/images/projects/valo.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"]
+  },
+  {
+    "id": 10,
+    "title_card": "X-Studio",
+    "description_card": "Site vitrine - Webflow",
+    "image": "/images/projects/valo.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"]
+  },
+  {
+    "id": 11,
+    "title_card": "X-Tract",
+    "description_card": "Webapp - Next.js | Supabase",
+    "image": "/images/projects/valo.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"]
+  },
+  {
+    "id": 12,
+    "title_card": "Swipelink",
+    "description_card": "Webapp - Next.js | Supabase",
+    "image": "/images/projects/valo.webp",
+    "period": "Juin 2025 - Juillet 2025",
+    "title_project": "Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.",
+    "description_project": "<ul><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li><li>Création d’une plateforme innovante permettant aux professionnels de réserver facilement des activités culturelles.</li></ul>",
+    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"]
+  }
+]
