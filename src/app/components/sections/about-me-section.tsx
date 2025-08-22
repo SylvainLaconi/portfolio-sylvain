@@ -3,7 +3,10 @@ import { Button } from '../ui/button'
 
 export default function AboutMeSection() {
   return (
-    <div className="container flex w-screen flex-col gap-5 px-2.5 py-10 md:mx-auto md:w-auto md:px-0 md:py-20">
+    <div
+      id="about-me"
+      className="container flex w-screen flex-col gap-8 px-2.5 py-10 md:mx-auto md:w-auto md:gap-16 md:px-0 md:py-20"
+    >
       <AnimateOnScroll delay={200}>
         <h2 className="text-2xl font-semibold uppercase md:text-3xl">
           À propos de moi

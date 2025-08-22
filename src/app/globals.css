@@ -46,7 +46,7 @@
 :root {
   --font-raleway: 'Raleway', sans-serif;
   --radius: 0.625rem;
-  --background: oklch(0.145 0 0);
+  --background: oklch(0 0 0);
   --foreground: oklch(1 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -119,5 +119,8 @@
   }
   body {
     @apply bg-background text-foreground font-sans;
+  }
+  html {
+    scroll-behavior: smooth;
   }
 }
