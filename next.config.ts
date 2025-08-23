@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
             key: 'Permissions-Policy',
             value: 'payment=()',
           },
+          {
+            key: 'X-Robots-Tag',
+            value: 'noimageindex',
+          },
         ],
       },
     ]

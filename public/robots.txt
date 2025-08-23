@@ -1,0 +1,3 @@
+User-agent: Googlebot-Image
+Disallow: /images/projects/
+Disallow: /images/hero-image.webp 
