@@ -10,16 +10,36 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: 'Portfolio développeur fullstack - Sylvain Laconi',
+  title: 'Sylvain Laconi – Développeur Freelance Next.js & Expert Webflow',
   description:
-    'Freelance fullstack basé à Colombes, Île-de-France, je conçois des applications web, SaaS et sites vitrines performants avec Next.js, TypeScript, Webflow et Retool, alliant qualité technique et optimisation pour la visibilité en ligne.',
+    'Besoin d’un site professionnel rapide et élégant ? J’accompagne startups et indépendants avec Next.js et Webflow pour créer des expériences web sur-mesure.',
+  icons: {
+    icon: [
+      { url: '/favicons/favicon.ico' }, // navigateur classique
+      { url: '/favicons/favicon_32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicons/favicon_16x16.png', sizes: '16x16', type: 'image/png' },
+      {
+        url: '/favicons/favicon_192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        url: '/favicons/favicon_512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+      },
+    ],
+    apple: '/favicons/favicon_180x180.png', // 180x180
+    shortcut: '/favicons/favicon_16x16.png', // fallback rapide
+  },
   openGraph: {
-    title: 'Portfolio développeur fullstack - Sylvain Laconi',
+    title: 'Sylvain Laconi – Développeur Freelance Next.js & Expert Webflow',
     description:
-      'Freelance fullstack basé à Colombes, Île-de-France, je conçois des applications web, SaaS et sites vitrines performants avec Next.js, TypeScript, Webflow et Retool, alliant qualité technique et optimisation pour la visibilité en ligne.',
+      'Besoin d’un site professionnel rapide et élégant ? J’accompagne startups et indépendants avec Next.js et Webflow pour créer des expériences web sur-mesure.',
     url: 'https://sylvain-laconi.fr',
     siteName: 'Portfolio Sylvain Laconi',
     type: 'website',
+    locale: 'fr_FR',
     images: [
       {
         url: 'https://sylvain-laconi.fr/images/og-image.png',
