@@ -4,7 +4,7 @@ import BurgerMenu from '../burger-menu/burger-menu'
 
 const Navbar = () => {
   return (
-    <header className="bg-background fixed top-0 right-0 left-0 z-50 h-[56px] w-screen py-2.5 md:h-[84px] md:py-5">
+    <header className="bg-background fixed top-0 right-0 left-0 z-50 flex h-[56px] w-screen items-center py-2.5 md:h-[84px] md:py-5">
       <div className="container mx-auto">
         <div className="hidden items-center justify-end gap-8 md:flex">
           <Link
