@@ -25,9 +25,9 @@ const Navbar = () => {
           >
             Portfolio
           </Link>
-          <Button>
-            <Link href="/#contact">Discutons de votre projet</Link>
-          </Button>
+          <Link href="/#contact">
+            <Button>Discutons de votre projet</Button>
+          </Link>
         </div>
         <div className="flex items-center justify-end px-4 md:hidden">
           <BurgerMenu />
