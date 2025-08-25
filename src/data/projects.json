@@ -15,7 +15,7 @@
     "title_card": "Desoutter Tools",
     "description_card": "Webapp - Next.js | DatoCMS",
     "image": "/images/projects/desoutter.webp",
-    "period": "Juin 2025 - Juillet 2025",
+    "period": "Janvier 2024 - Mai 2024",
     "title_project": "Site vitrine et catalogue produits pour Desoutter Tools",
     "description_project": "Développement du site commercial de Desoutter Tools, industriel spécialisé en outillage pour l’assemblage, combinant pages institutionnelles et catalogue produits complet.<br /><ul><li>Synchronisation avec le PIM Desoutter via DatoCMS pour la gestion des produits</li><li>Catalogue produit avec fonctionnalités de recherche avancées et pages détaillées</li><li>Intégration Next.js avec priorité sur SEO et performance</li><li>Présentation institutionnelle et documentation des outils</li></ul>",
     "stack": ["Next.js", "DatoCMS", "TailwindCSS", "Typescript"],
