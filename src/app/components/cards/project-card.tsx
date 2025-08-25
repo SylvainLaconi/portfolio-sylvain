@@ -12,6 +12,7 @@ type Project = {
   title_project: string
   description_project: string
   stack: string[]
+  context: string
 }
 
 type ProjectCardProps = {

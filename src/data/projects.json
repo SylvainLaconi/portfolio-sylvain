@@ -7,7 +7,8 @@
     "period": "Juin 2025 - Juillet 2025",
     "title_project": "Marketplace culturelle pour salariés d’entreprise",
     "description_project": "Création d’une plateforme B2B où les entreprises offrent à leurs salariés l’accès à une marketplace d’activités culturelles, qu’ils réservent directement.<br /><ul><li>Gestion simple des offres via Webflow CMS</li><li>Paiements sécurisés avec Stripe</li><li>Comptes utilisateurs et espace client (Memberstack)</li><li>Filtres dynamiques et composants sur-mesure (Finsweet)</li></ul>",
-    "stack": ["Webflow", "Memberstack", "Finsweet Attributes", "Javascript"]
+    "stack": ["Webflow", "Memberstack", "Finsweet Attributes", "Javascript"],
+    "context": "Freelance pour X-Studio"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "period": "Juin 2025 - Juillet 2025",
     "title_project": "Site vitrine et catalogue produits pour Desoutter Tools",
     "description_project": "Développement du site commercial de Desoutter Tools, industriel spécialisé en outillage pour l’assemblage, combinant pages institutionnelles et catalogue produits complet.<br /><ul><li>Synchronisation avec le PIM Desoutter via DatoCMS pour la gestion des produits</li><li>Catalogue produit avec fonctionnalités de recherche avancées et pages détaillées</li><li>Intégration Next.js avec priorité sur SEO et performance</li><li>Présentation institutionnelle et documentation des outils</li></ul>",
-    "stack": ["Next.js", "DatoCMS", "TailwindCSS", "Typescript"]
+    "stack": ["Next.js", "DatoCMS", "TailwindCSS", "Typescript"],
+    "context": "CDI chez Lonestone"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "period": "Mars 2025 - Mars 2025",
     "title_project": "Webapp de suivi progression pour la Fédération Française de Natation",
     "description_project": "Développement d’une application Next.js permettant aux licenciés de suivre leur parcours et progression, tout en facilitant le suivi pédagogique pour la fédération.<br /><ul><li>Espace pratiquant connecté à Directus (headless CMS)</li><li>Barre de progression “gamifiée” et interactive</li><li>Interface moderne avec TailwindCSS & ShadcnUI</li><li>Responsive et fluide sur tous supports</li></ul>",
-    "stack": ["Next.js", "Directus", "TailwindCSS", "Typescript"]
+    "stack": ["Next.js", "Directus", "TailwindCSS", "Typescript"],
+    "context": "Freelance pour X-Studio"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "period": "Janvier 2023 - Mai 2024",
     "title_project": "Plateforme digitale de candidature locative",
     "description_project": "Développement d’une webapp permettant aux agences immobilières de centraliser et simplifier l’expérience de candidature des locataires.<br /><ul><li>Synchronisation automatisée des annonces via connecteurs Ubiflow, Hektor et AC3</li><li>Dossier candidat unique avec pièces justificatives sécurisées</li><li>Candidature en un clic pour plusieurs annonces</li><li>Vérification documentaire IA et transmission simplifiée aux assureurs GLI</li></ul>",
-    "stack": ["Next.js", "Nest.js", "GraphQL", "MikroORM", "Typescript"]
+    "stack": ["Next.js", "Nest.js", "GraphQL", "MikroORM", "Typescript"],
+    "context": "CDI chez Lonestone"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "period": "Juin 2025 - Juillet 2025",
     "title_project": "Site vitrine Webflow pour cabinet de conseil RH",
     "description_project": "Création d’un site commercial pour Maesina, afin de présenter les services et renforcer la crédibilité du cabinet auprès de clients potentiels.<br /><ul><li>Gestion de contenu dynamique via Webflow CMS</li><li>Fonctionnalités avancées (filtres, mises en avant dynamiques) avec Finsweet</li><li>Design moderne, responsive et ergonomique</li><li>Intégration de formulaires de contact</li></ul>",
-    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"]
+    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"],
+    "context": "Freelance pour X-Studio"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "period": "Octobre 2023 - Novembre 2023",
     "title_project": "Site vitrine optimisé SEO pour Home Organiser",
     "description_project": "Développement d’un site Next.js visant à accroître la visibilité et générer des leads pour un entrepreneur spécialisé en Home Organising.<br /><ul><li>Next.js (App Router) avec rendu hybride SSR/SSG pour performance et SEO</li><li>Design épuré et rapide à itérer avec TailwindCSS</li><li>Optimisation SEO avancée : balises meta dynamiques, sitemap, schema.org, Core Web Vitals</li><li>Hébergement Render avec déploiement continu et indexation rapide</li></ul>",
-    "stack": ["Next.js", "TailwindCSS", "Typescript"]
+    "stack": ["Next.js", "TailwindCSS", "Typescript"],
+    "context": "Freelance"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "period": "Juin 2025 - Juillet 2025",
     "title_project": "Site vitrine Webflow pour cabinet de conseil RH",
     "description_project": "Création d’un site commercial pour Nicholas Angell, afin de présenter les services, expertises et renforcer la crédibilité auprès des clients potentiels.<br /><ul><li>Gestion de contenu dynamique via Webflow CMS</li><li>Fonctionnalités avancées (filtres, mises en avant dynamiques) avec Finsweet</li><li>Design moderne, responsive et ergonomique</li><li>Intégration de formulaires de contact</li></ul>",
-    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"]
+    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"],
+    "context": "Freelance pour X-Studio"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "period": "Avril 2025 - Avril 2025",
     "title_project": "Webapp de recrutement automatisé",
     "description_project": "Développement d’une webapp permettant aux entreprises de diffuser leurs offres et de présélectionner automatiquement les candidats les plus pertinents.<br /><ul><li>Classement automatique des candidatures selon un taux de compatibilité fiable</li><li>Recherche proactive de profils qualifiés non candidat</li><li>Gestion des offres et candidats via Next.js + Supabase</li><li>Interface moderne et performante pour faciliter le processus de recrutement</li></ul>",
-    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"]
+    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"],
+    "context": "Freelance pour X-Studio"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "period": "Juin 2024 - Décembre 2024",
     "title_project": "Valo – Plateforme circulaire textile pour gestion de stocks",
     "description_project": "Développement de l’interface utilisateur de Valo, la plateforme Weturn dédiée à la revalorisation des stocks textiles excédentaires.<br /><ul><li>Import et traitement automatisé des inventaires CSV</li><li>Dashboard client avec graphiques, filtres et exports.</li><li>Authentification multi-organisation via Auth0</li><li>Attribution automatique des produits aux filières (don, réemploi, recyclage)</li></ul>",
-    "stack": ["Next.js", "Nest.js", "TailwindCSS", "Prisma", "Typescript", "PostgreSQL"]
+    "stack": ["Next.js", "Nest.js", "TailwindCSS", "Prisma", "Typescript", "PostgreSQL"],
+    "context": "CDI chez Weturn"
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "period": "Février 2025 - Avril 2025",
     "title_project": "PWA d’analyse intelligente des déchets",
     "description_project": "Développement d’une webapp progressive pour Wastetide, permettant aux équipes terrain et achats d’exploiter l’IA de manière simple et efficace.<ul><li>PWA installable et responsive pour usage mobile</li><li>Analyse via API IA : photos d’inspection et factures</li><li>Authentification et stockage des données avec Supabase</li><li>UI moderne (TailwindCSS + ShadcnUI) avec composants custom</li></ul>",
-    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"]
+    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"],
+    "context": "Freelance pour X-Studio"
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@
     "period": "Mai 2025 - Juin 2025",
     "title_project": "Site vitrine dynamique pour l’agence X-Studio",
     "description_project": "Conception d’un site vitrine professionnel pour l’agence X-Studio, alliant design, performance et flexibilité grâce à Webflow.<br /><ul><li>Gestion autonome des contenus via Webflow CMS</li><li>Fonctionnalités avancées avec Finsweet Attributes</li><li>Design responsive optimisé SEO et accessibilité</li><li>Site multi-langues intégré</li></ul>",
-    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"]
+    "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"],
+    "context": "Freelance pour X-Studio"
   },
   {
     "id": 12,
@@ -117,6 +128,7 @@
     "period": "Février 2025 - Avril 2025",
     "title_project": "PWA de géolocalisation pour événements sportifs",
     "description_project": "Développement d’une webapp SaaS permettant de suivre en temps réel la position des participants sur des courses type trail, afin de sécuriser la logistique et les interventions.<br /><ul><li>Base de données Postgres et authentification via Supabase</li><li>SMS automatisés aux coureurs grâce à Twilio</li><li>PWA Next.js (offline ready) pour un usage terrain fluide</li><li>Interface moderne avec Tailwind CSS et composants custom</li></ul>",
-    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"]
+    "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"],
+    "context": "Freelance pour X-Studio"
   }
 ]

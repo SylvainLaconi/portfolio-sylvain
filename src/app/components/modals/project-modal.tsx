@@ -20,6 +20,7 @@ type ProjectModalProps = {
     title_project: string
     description_project: string
     stack: string[]
+    context: string
   }
 }
 
@@ -34,7 +35,11 @@ export default function ProjectModal({ project }: ProjectModalProps) {
           <DialogTitle>{project.title_card}</DialogTitle>
           <DialogDescription>{project.description_card}</DialogDescription>
           <DialogDescription>{project.period}</DialogDescription>
+          <div className="rounded-full bg-green-200 px-2 py-1 text-sm font-bold text-green-800">
+            {project.context}
+          </div>
         </div>
+
         <Image
           src={project.image}
           alt={project.title_card}
