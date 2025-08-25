@@ -6,7 +6,7 @@ import { Suspense } from 'react'
 export default function ContactSection() {
   return (
     <SectionLayout id="contact" color="gray">
-      <div className="flex flex-col gap-4">
+      <div className="mb-10 flex flex-col gap-4 lg:mb-0">
         <AnimateOnScroll delay={200}>
           <h2 className="text-2xl font-semibold uppercase md:text-3xl">
             Contact
