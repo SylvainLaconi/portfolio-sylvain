@@ -62,6 +62,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hero-image.webp"
+          fetchPriority="high"
+        />
+      </head>
       <body className={`${raleway.variable} antialiased`}>
         <Navbar />
         <main className="mt-[56px] flex flex-col md:mt-[84px]">{children}</main>
