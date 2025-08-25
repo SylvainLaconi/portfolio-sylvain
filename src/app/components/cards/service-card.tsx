@@ -21,7 +21,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
       />
       <h3 className="text-xl font-semibold md:text-2xl">{service.title}</h3>
       <p
-        className="text-justify text-sm leading-loose md:text-lg"
+        className="text-sm leading-loose md:text-lg"
         dangerouslySetInnerHTML={{ __html: service.description }}
       />
     </div>

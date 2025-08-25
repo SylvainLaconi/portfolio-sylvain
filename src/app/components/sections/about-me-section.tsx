@@ -13,21 +13,24 @@ export default function AboutMeSection() {
 
       <AnimateOnScroll delay={400}>
         <p className="text-justify text-sm leading-loose md:text-lg">
-          Ancien cadre dirigeant reconverti en développeur fullstack freelance,
-          j’apporte à mes clients une double compétence :{' '}
-          <strong>vision business</strong> et{' '}
-          <strong>exécution technique</strong>. <br /> Au cours de ma carrière,
-          j’ai travaillé en <strong>agence</strong> comme en{' '}
-          <strong>startup</strong>, ce qui me permet de comprendre aussi bien
-          les enjeux stratégiques que les besoins opérationnels du quotidien.
+          Ancien cadre dirigeant reconverti en développeur fullstack freelance{' '}
+          <strong>avec 5 ans d’expérience</strong>, je combine{' '}
+          <strong>vision stratégique</strong> et{' '}
+          <strong>exécution technique</strong> pour livrer rapidement des
+          solutions digitales qui font avancer votre business. <br />
+          Ayant travaillé en <strong>agence</strong> et en{' '}
+          <strong>startup</strong>, je comprends vos besoins opérationnels tout
+          en alignant les solutions sur vos objectifs.
           <br />
-          Guidé par une forte <strong>sensibilité produit</strong>, j’aime le
-          travail bien fait et oriente chaque projet vers la{' '}
-          <strong>satisfaction client</strong>. <br /> Je me suis spécialisé
-          dans une stack moderne et efficace —{' '}
-          <strong>Next.js, TypeScript, Webflow</strong> et{' '}
-          <strong>Retool</strong> — afin de concevoir des solutions robustes,
-          évolutives et centrées sur les besoins métiers.
+          Je suis spécialisé en <strong>
+            Next.js, TypeScript, Webflow
+          </strong> et <strong>Retool</strong> pour créer des outils robustes,
+          scalables et centrés sur l’utilisateur.
+          <br />
+          <strong>Mon objectif : </strong> vous faire gagner du temps,{' '}
+          <strong>améliorer votre productivité</strong> et{' '}
+          <strong>booster votre présence en ligne</strong>, sans surprises, avec
+          une <strong>transparence totale</strong>.
         </p>
       </AnimateOnScroll>
 

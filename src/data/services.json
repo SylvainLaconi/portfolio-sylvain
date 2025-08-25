@@ -2,37 +2,37 @@
   {
     "id": 1,
     "title": "Applications web sur-mesure",
-    "description": "SaaS, ERP internes, outils métiers → robustes et scalables grâce à <strong>Next.js</strong> & <strong>TypeScript</strong>.",
+    "description": "SaaS, ERP internes, outils métiers → je conçois des applications robustes, scalables et adaptées à vos besoins métier, pour accélérer vos processus et votre croissance.",
     "icon": "/icons/icon-app.png"
   },
   {
     "id": 2,
     "title": "Sites vitrines & e-commerce",
-    "description": "création rapide et élégante avec <strong>Webflow</strong>, optimisés SEO et performants.",
+    "description": "Sites rapides et élégants avec <strong>Webflow</strong>, optimisés SEO → attirez plus de clients et convertissez mieux, sans compromis sur la performance.",
     "icon": "/icons/icon-shop.png"
   },
   {
     "id": 3,
     "title": "Outils internes & dashboards",
-    "description": "automatisation et back-offices personnalisés via <strong>Retool</strong>.",
+    "description": "Automatisation et back-offices personnalisés via <strong>Retool</strong> → gagnez du temps, centralisez vos données et facilitez vos prises de décision.",
     "icon": "/icons/icon-automation.png"
   },
   { 
     "id": 4,
     "title": "Évolution de projets existants",
-    "description": "Amélioration continue de vos applications <strong>React</strong> / <strong>Node.js</strong> : nouvelles fonctionnalités, montée en performance et expérience utilisateur optimisée, en toute fiabilité.",
+    "description": "Amélioration continue de vos applications <strong>React</strong> / <strong>Node.js</strong> → nouvelles fonctionnalités, performances optimisées et UX améliorée, sans rupture ni bugs.",
     "icon": "/icons/icon-cycle.png"
   },
   { 
     "id": 5,
     "title": "CI/CD & hébergement",
-    "description": "déploiements continus via <strong>Git</strong> & <strong>GitHub</strong> pour des mises à jour rapides et sécurisées. Hébergement moderne sur <strong>Vercel</strong> et <strong>Render</strong> pour des applications fiables, performantes et évolutives.",
+    "description": "Déploiements automatisés via <strong>Git</strong>/<strong>GitHub</strong>, hébergement sur <strong>Vercel</strong> ou <strong>Render</strong> → fiabilité et rapidité maximales, mises à jour sécurisées et évolutives.",
     "icon": "/icons/icon-cloud.png"
   },
   {
     "id": 6,
     "title": "Optimisation SEO",
-    "description": "audit technique avec <strong>PageSpeed</strong> & <strong>Search Console</strong>, optimisation des <strong>Core Web Vitals</strong> et bonnes pratiques pour booster visibilité et performance.",
+    "description": "Audit technique, <strong>PageSpeed</strong> et <strong>Core Web Vitals</strong> → boostez visibilité et performances, pour générer plus de trafic qualifié.",
     "icon": "/icons/icon-graph.png"
   }
 ]

@@ -18,7 +18,7 @@ export default function HeroSection() {
 
         <AnimateOnScroll delay={600}>
           <h2 className="text-sm font-extrabold uppercase md:text-2xl">
-            Développeur fullstack Freelance
+            Freelance fullstack — Next.js, TypeScript, Webflow
           </h2>
         </AnimateOnScroll>
 
