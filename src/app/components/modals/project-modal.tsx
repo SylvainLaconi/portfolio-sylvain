@@ -1,3 +1,5 @@
+'use client'
+
 import {
   DialogContent,
   DialogHeader,
@@ -23,7 +25,10 @@ type ProjectModalProps = {
 
 export default function ProjectModal({ project }: ProjectModalProps) {
   return (
-    <DialogContent className="max-h-screen gap-8 overflow-y-auto">
+    <DialogContent
+      className="max-h-screen gap-8 overflow-y-auto"
+      onOpenAutoFocus={(e) => e.preventDefault()}
+    >
       <DialogHeader className="flex flex-col items-start gap-8">
         <div className="flex flex-col items-start gap-2">
           <DialogTitle>{project.title_card}</DialogTitle>
@@ -43,7 +48,7 @@ export default function ProjectModal({ project }: ProjectModalProps) {
           {project.title_project}
         </span>
         <span
-          className="text-xs leading-loose md:text-sm"
+          className="text-xs leading-loose md:text-sm [&_li]:mb-1 [&_ul]:list-disc [&_ul]:pl-5"
           dangerouslySetInnerHTML={{
             __html: project.description_project,
           }}
