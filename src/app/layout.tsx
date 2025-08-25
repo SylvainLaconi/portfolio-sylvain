@@ -72,7 +72,7 @@ export default function RootLayout({
       </head>
       <body className={`${raleway.variable} antialiased`}>
         <Navbar />
-        <main className="mt-[56px] flex flex-col md:mt-[84px]">{children}</main>
+        <main className="mt-[68px] flex flex-col md:mt-[88px]">{children}</main>
         <Footer />
       </body>
     </html>

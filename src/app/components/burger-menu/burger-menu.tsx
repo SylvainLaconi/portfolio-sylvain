@@ -15,23 +15,31 @@ export default function BurgerMenu() {
         <Image
           src="/icons/icon-menu.png"
           alt="burger-menu"
-          width={36}
-          height={36}
+          width={48}
+          height={48}
         />
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem asChild>
-          <Link href="/#about">À propos de moi</Link>
+          <Link href="/#about" className="h-12">
+            À propos de moi
+          </Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
-          <Link href="/#services">Mes services</Link>
+          <Link href="/#services" className="h-12">
+            Mes services
+          </Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
-          <Link href="/#portfolio">Portfolio</Link>
+          <Link href="/#portfolio" className="h-12">
+            Portfolio
+          </Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem asChild>
-          <Link href="/#contact">Discutons de votre projet</Link>
+          <Link href="/#contact" className="h-12">
+            Discutons de votre projet
+          </Link>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
