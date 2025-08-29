@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from './components/navbar/navbar'
 import Footer from './components/footer/footer'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/next'
 
 const raleway = Raleway({
   variable: '--font-raleway',
@@ -76,6 +77,7 @@ export default function RootLayout({
         <main className="mt-[68px] flex flex-col md:mt-[88px]">{children}</main>
         <Footer />
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
