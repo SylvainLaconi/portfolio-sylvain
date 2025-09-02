@@ -18,7 +18,7 @@ export default function CalendlyEmbed() {
     <div className="h-auto w-full">
       <div
         className="calendly-inline-widget"
-        data-url="https://calendly.com/sylvain-laconi-pro/30min?primary_color=1a1a1a"
+        data-url="https://calendly.com/sylvain-laconi-pro/15min?primary_color=1a1a1a"
         style={{
           minWidth: '320px',
           height: '800px',
