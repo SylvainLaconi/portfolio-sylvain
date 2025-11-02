@@ -9,6 +9,7 @@ import {
 } from '../ui/dialog'
 
 import Image from 'next/image'
+import { useState } from 'react'
 
 type ProjectModalProps = {
   project: {
@@ -25,6 +26,7 @@ type ProjectModalProps = {
 }
 
 export default function ProjectModal({ project }: ProjectModalProps) {
+  const [imageLoading, setImageLoading] = useState(true)
   return (
     <DialogContent
       className="max-h-screen gap-8 overflow-y-auto"
@@ -40,13 +42,24 @@ export default function ProjectModal({ project }: ProjectModalProps) {
           </div>
         </div>
 
-        <Image
-          src={project.image}
-          alt={project.title_card}
-          width={300}
-          height={350}
-          className="h-[200px] w-full object-cover object-top md:h-[350px]"
-        />
+        <div className="relative h-[200px] w-full md:h-[350px]">
+          {imageLoading && (
+            <div className="absolute inset-0 animate-pulse bg-gray-200">
+              <div className="animate-shimmer h-full w-full bg-gradient-to-r from-gray-200 via-gray-300 to-gray-200 bg-[length:200%_100%]" />
+            </div>
+          )}
+          <Image
+            src={project.image}
+            alt={project.title_card}
+            fill
+            sizes="(max-width: 768px) 100vw, 768px"
+            quality={90}
+            className={`object-cover object-top transition-opacity duration-300 ${
+              imageLoading ? 'opacity-0' : 'opacity-100'
+            }`}
+            onLoad={() => setImageLoading(false)}
+          />
+        </div>
       </DialogHeader>
       <DialogDescription className="flex flex-col gap-1 md:gap-2">
         <span className="text-base font-bold md:text-lg">

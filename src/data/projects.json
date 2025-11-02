@@ -44,11 +44,22 @@
     "context": "CDI chez Lonestone"
   },
   {
+    "id": 13,
+    "title_card": "Interaxis",
+    "description_card": "Site vitrine - Interaxis",
+    "image": "/images/projects/interaxis.webp",
+    "period": "Octobre 2025 - Novembre 2025",
+    "title_project": "Site vitrine Webflow pour cabinet de conseil RH",
+    "description_project": "Création d’un site commercial pour Interaxis, afin de présenter les services et renforcer la crédibilité du cabinet auprès de clients potentiels.<br /><ul><li>Gestion de contenu dynamique via Webflow CMS</li><li>Design moderne, responsive et ergonomique</li><li>Intégration de formulaires de contact</li></ul>",
+    "stack": ["Webflow", "Webflow CMS", "Javascript"],
+    "context": "Freelance pour X-Studio"
+  },
+  {
     "id": 5,
     "title_card": "Maesina",
     "description_card": "Site vitrine - Webflow",
     "image": "/images/projects/maesina.webp",
-    "period": "Juin 2025 - Juillet 2025",
+    "period": "Juin 2025 - Octobre 2025",
     "title_project": "Site vitrine Webflow pour cabinet de conseil RH",
     "description_project": "Création d’un site commercial pour Maesina, afin de présenter les services et renforcer la crédibilité du cabinet auprès de clients potentiels.<br /><ul><li>Gestion de contenu dynamique via Webflow CMS</li><li>Fonctionnalités avancées (filtres, mises en avant dynamiques) avec Finsweet</li><li>Design moderne, responsive et ergonomique</li><li>Intégration de formulaires de contact</li></ul>",
     "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"],
@@ -70,7 +81,7 @@
     "title_card": "Nicholas Angell",
     "description_card": "Site vitrine - Webflow",
     "image": "/images/projects/nicholas-angell.webp",
-    "period": "Juin 2025 - Juillet 2025",
+    "period": "Juin 2025 - Octobre 2025",
     "title_project": "Site vitrine Webflow pour cabinet de conseil RH",
     "description_project": "Création d’un site commercial pour Nicholas Angell, afin de présenter les services, expertises et renforcer la crédibilité auprès des clients potentiels.<br /><ul><li>Gestion de contenu dynamique via Webflow CMS</li><li>Fonctionnalités avancées (filtres, mises en avant dynamiques) avec Finsweet</li><li>Design moderne, responsive et ergonomique</li><li>Intégration de formulaires de contact</li></ul>",
     "stack": ["Webflow", "Webflow CMS", "Finsweet Attributes", "Javascript"],
