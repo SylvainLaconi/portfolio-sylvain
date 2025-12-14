@@ -9,7 +9,7 @@ export default function HeroSection() {
         <div className="relative container mx-2.5 flex flex-col gap-4 py-24 md:mx-auto md:gap-8 md:py-48">
           <AnimateOnScroll delay={200}>
             <span className="text-2xl font-bold text-black md:text-4xl">
-              Hello, je suis
+              Freelance fullstack
             </span>
           </AnimateOnScroll>
 
@@ -19,7 +19,7 @@ export default function HeroSection() {
 
           <AnimateOnScroll delay={600}>
             <h2 className="text-sm font-extrabold uppercase md:text-2xl">
-              Freelance fullstack — Next.js, TypeScript, Webflow
+              React.js, Next.js, TypeScript, Webflow & Retool
             </h2>
           </AnimateOnScroll>
 

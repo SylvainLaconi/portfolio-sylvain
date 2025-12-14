@@ -22,12 +22,11 @@ export default function AboutMeSection() {
           <strong>startup</strong>, je comprends vos besoins opérationnels tout
           en alignant les solutions sur vos objectifs.
           <br />
-          Je suis spécialisé en <strong>
-            Next.js, TypeScript, Webflow
-          </strong> et <strong>Retool</strong> pour créer des outils robustes,
-          scalables et centrés sur l’utilisateur.
+          Je suis spécialisé en{' '}
+          <strong>React.js, Next.js, TypeScript, Webflow & Retool</strong> pour
+          créer des outils robustes, scalables et centrés sur l’utilisateur.
           <br />
-          <strong>Mon objectif : </strong> vous faire gagner du temps,{' '}
+          <strong>Mon objectif : </strong> vous faire gagner du temps,
           <strong>améliorer votre productivité</strong> et{' '}
           <strong>booster votre présence en ligne</strong>, sans surprises, avec
           une <strong>transparence totale</strong>.

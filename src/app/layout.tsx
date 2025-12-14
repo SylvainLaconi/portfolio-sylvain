@@ -12,9 +12,10 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: 'Sylvain Laconi – Développeur Freelance Next.js & Expert Webflow',
+  title:
+    'Sylvain Laconi – Développeur Freelance React.js, Next.js, Webflow et Retool',
   description:
-    'Besoin d’un site professionnel rapide et élégant ? J’accompagne startups et indépendants avec Next.js et Webflow pour créer des expériences web sur-mesure.',
+    'Besoin d’un site professionnel rapide et élégant ? J’accompagne startups et indépendants avec React.js, Next.js et Webflow pour créer des expériences web sur-mesure.',
   icons: {
     icon: [
       { url: '/favicons/favicon.ico' }, // navigateur classique
@@ -35,9 +36,10 @@ export const metadata: Metadata = {
     shortcut: '/favicons/favicon_16x16.png', // fallback rapide
   },
   openGraph: {
-    title: 'Sylvain Laconi – Développeur Freelance Next.js & Expert Webflow',
+    title:
+      'Sylvain Laconi – Développeur Freelance React.js, Next.js, Webflow et Retool',
     description:
-      'Besoin d’un site professionnel rapide et élégant ? J’accompagne startups et indépendants avec Next.js et Webflow pour créer des expériences web sur-mesure.',
+      'Besoin d’un site professionnel rapide et élégant ? J’accompagne startups et indépendants avec React.js, Next.js, Webflow et Retool pour créer des expériences web sur-mesure.',
     url: 'https://sylvain-laconi.fr',
     siteName: 'Portfolio Sylvain Laconi',
     type: 'website',
