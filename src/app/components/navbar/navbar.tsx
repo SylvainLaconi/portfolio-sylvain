@@ -1,32 +1,53 @@
+'use client'
+
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Button } from '../ui/button'
 import BurgerMenu from '../burger-menu/burger-menu'
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0)
+    }
+
+    // Vérifier la position initiale
+    handleScroll()
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className="bg-background fixed top-0 right-0 left-0 z-50 flex h-[68px] w-screen items-center py-2.5 md:h-[88px] md:py-5">
+    <header
+      className={`fixed top-0 right-0 left-0 z-50 flex h-[68px] w-screen items-center py-2.5 text-black transition-all duration-800 ease-in-out md:h-[88px] md:py-5 ${
+        isScrolled ? 'bg-white shadow-sm backdrop-blur-sm' : 'bg-transparent'
+      }`}
+    >
       <div className="container mx-auto">
         <div className="hidden items-center justify-end gap-8 md:flex">
           <Link
             href="/#about-me"
-            className="flex h-12 items-center font-medium transition-transform duration-200 hover:scale-105"
+            className="flex h-12 items-center font-medium transition-transform duration-800 ease-in-out hover:scale-105"
           >
             À propos de moi
           </Link>
           <Link
             href="/#services"
-            className="flex h-12 items-center font-medium transition-transform duration-200 hover:scale-105"
+            className="flex h-12 items-center font-medium transition-transform duration-800 ease-in-out hover:scale-105"
           >
             Mes services
           </Link>
           <Link
             href="/#portfolio"
-            className="flex h-12 items-center font-medium transition-transform duration-200 hover:scale-105"
+            className="flex h-12 items-center font-medium transition-transform duration-800 ease-in-out hover:scale-105"
           >
             Portfolio
           </Link>
           <Link href="/#contact">
-            <Button>Discutons de votre projet</Button>
+            <Button variant={'black'}>Discutons de votre projet</Button>
           </Link>
         </div>
         <div className="flex items-center justify-end px-4 md:hidden">
