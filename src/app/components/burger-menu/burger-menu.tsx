@@ -12,9 +12,9 @@ import {
 export default function BurgerMenu() {
   return (
     <DropdownMenu modal={false}>
-      <DropdownMenuTrigger className="group flex h-12 w-12 flex-col items-center justify-center gap-1.5 focus:outline-none">
+      <DropdownMenuTrigger className="group flex h-12 w-12 flex-col items-center justify-center gap-1.5 overflow-hidden focus:outline-none">
         <div className="h-0.5 w-8 bg-black transition-all duration-800 ease-in-out group-data-[state=open]:translate-y-2 group-data-[state=open]:rotate-45" />
-        <div className="h-0.5 w-8 bg-black transition-all duration-800 ease-in-out group-data-[state=open]:w-0 group-data-[state=open]:opacity-0" />
+        <div className="h-0.5 w-8 [transform:translateZ(0)] bg-black transition-all duration-800 ease-in-out [backface-visibility:hidden] group-data-[state=open]:scale-x-0 group-data-[state=open]:opacity-0" />
         <div className="h-0.5 w-8 bg-black transition-all duration-800 ease-in-out group-data-[state=open]:-translate-y-2 group-data-[state=open]:-rotate-45" />
       </DropdownMenuTrigger>
       <DropdownMenuContent>
