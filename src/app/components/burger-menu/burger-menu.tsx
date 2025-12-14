@@ -1,4 +1,5 @@
-import Image from 'next/image'
+'use client'
+
 import Link from 'next/link'
 import {
   DropdownMenu,
@@ -11,13 +12,10 @@ import {
 export default function BurgerMenu() {
   return (
     <DropdownMenu modal={false}>
-      <DropdownMenuTrigger>
-        <Image
-          src="/icons/icon-menu.png"
-          alt="burger-menu"
-          width={48}
-          height={48}
-        />
+      <DropdownMenuTrigger className="group flex h-12 w-12 flex-col items-center justify-center gap-1.5 focus:outline-none">
+        <div className="bg-foreground h-0.5 w-8 transition-all duration-300 ease-in-out group-data-[state=open]:translate-y-2 group-data-[state=open]:rotate-45" />
+        <div className="bg-foreground h-0.5 w-8 transition-all duration-300 ease-in-out group-data-[state=open]:opacity-0" />
+        <div className="bg-foreground h-0.5 w-8 transition-all duration-300 ease-in-out group-data-[state=open]:-translate-y-2 group-data-[state=open]:-rotate-45" />
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem asChild>
