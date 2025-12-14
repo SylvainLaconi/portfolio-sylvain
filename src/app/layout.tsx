@@ -72,7 +72,9 @@ export default function RootLayout({
           fetchPriority="high"
         />
       </head>
-      <body className={`${raleway.variable} overflow-x-hidden antialiased`}>
+      <body
+        className={`${raleway.variable} max-w-screen overflow-x-hidden antialiased`}
+      >
         <Navbar />
         <main className="flex flex-col">{children}</main>
         <Footer />
