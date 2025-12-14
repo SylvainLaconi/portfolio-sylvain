@@ -141,5 +141,16 @@
     "description_project": "Développement d’une webapp SaaS permettant de suivre en temps réel la position des participants sur des courses type trail, afin de sécuriser la logistique et les interventions.<br /><ul><li>Base de données Postgres et authentification via Supabase</li><li>SMS automatisés aux coureurs grâce à Twilio</li><li>PWA Next.js (offline ready) pour un usage terrain fluide</li><li>Interface moderne avec Tailwind CSS et composants custom</li></ul>",
     "stack": ["Next.js", "ShadcnUI", "TailwindCSS", "Typescript", "Supabase"],
     "context": "Freelance pour X-Studio"
+  },
+  {
+    "id": 14,
+    "title_card": "Thibaud Dumas",
+    "description_card": "Site vitrine - Webflow",
+    "image": "/images/projects/thibaud-dumas.webp",
+    "period": "Décembre 2025 - Décembre 2025",
+    "title_project": "Site vitrine pour le Dr. en Neurosciences Thibaud Dumas",
+    "description_project": "Création d’un site vitrine pour le Dr. en Neurosciences Thibaud Dumas, afin de présenter ses services et renforcer sa crédibilité auprès de clients potentiels.<br /><ul><li>Gestion de contenu dynamique via Webflow CMS</li><li>Design moderne, responsive et ergonomique</li><li>Intégration de formulaires de contact</li></ul>",
+    "stack": ["Webflow", "Webflow CMS"],
+    "context": "Freelance pour X-Studio"
   }
 ]

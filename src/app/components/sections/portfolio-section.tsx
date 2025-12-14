@@ -21,11 +21,13 @@ export default function PortfolioSection() {
       </div>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-        {projects.map((project, index) => (
-          <AnimateOnScroll key={project.id} delay={600 + (index % 3) * 200}>
-            <ProjectCard project={project} />
-          </AnimateOnScroll>
-        ))}
+        {projects
+          .sort((a, b) => a.title_card.localeCompare(b.title_card))
+          .map((project, index) => (
+            <AnimateOnScroll key={project.id} delay={600 + (index % 3) * 200}>
+              <ProjectCard project={project} />
+            </AnimateOnScroll>
+          ))}
       </div>
     </SectionLayout>
   )
