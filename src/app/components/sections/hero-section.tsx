@@ -19,7 +19,7 @@ export default function HeroSection() {
 
           <AnimateOnScroll delay={600}>
             <h2 className="text-sm font-extrabold uppercase md:text-2xl">
-              React.js, Next.js, TypeScript, Webflow & Retool
+              React.js, Next.js, Webflow & Retool
             </h2>
           </AnimateOnScroll>
 
