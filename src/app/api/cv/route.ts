@@ -1,13 +1,12 @@
+import { readFile } from 'fs/promises'
+import path from 'path'
 import { NextResponse } from 'next/server'
 
 export async function GET() {
-  const fileUrl =
-    'https://drive.google.com/uc?export=download&id=1dS-gNVKiGrn4ShwKdBGqz4j7kfMTilF_'
+  const filePath = path.join(process.cwd(), 'public/cv/CV_Sylvain_Laconi.pdf')
+  const fileBuffer = await readFile(filePath)
 
-  const response = await fetch(fileUrl)
-  const fileBuffer = await response.arrayBuffer()
-
-  return new NextResponse(Buffer.from(fileBuffer), {
+  return new NextResponse(new Uint8Array(fileBuffer), {
     headers: {
       'Content-Type': 'application/pdf',
       'Content-Disposition': 'attachment; filename="CV_Sylvain_Laconi.pdf"',
