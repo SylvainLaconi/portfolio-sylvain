@@ -10,6 +10,7 @@
     "stack": ["Webflow", "Memberstack", "Finsweet Attributes", "Javascript"],
     "context": "Freelance pour X-Studio"
   },
+
   {
     "id": 2,
     "title_card": "Desoutter Tools",
@@ -152,5 +153,16 @@
     "description_project": "Création d’un site vitrine pour le Dr. en Neurosciences Thibaud Dumas, afin de présenter ses services et renforcer sa crédibilité auprès de clients potentiels.<br /><ul><li>Gestion de contenu dynamique via Webflow CMS</li><li>Design moderne, responsive et ergonomique</li><li>Intégration de formulaires de contact</li></ul>",
     "stack": ["Webflow", "Webflow CMS"],
     "context": "Freelance pour X-Studio"
+  },
+  {
+    "id": 15,
+    "title_card": "Colombe",
+    "description_card": "Webapp - React | Hono | tRPC",
+    "image": "/images/projects/colombe.webp",
+    "period": "Octobre 2025 - Août 2026",
+    "title_project": "Colombe – Plateforme de gestion opérationnelle pour pompes funèbres",
+    "description_project": "Développement d’une webapp métier permettant aux entreprises de pompes funèbres de piloter l’ensemble d’une procédure funéraire, du dossier au suivi terrain.<br /><ul><li>Gestion des dossiers, interventions, examens et documents réglementaires</li><li>Suivi opérationnel et planning des équipes</li><li>API typée Hono + tRPC, persistance Drizzle / PostgreSQL</li><li>Frontend React 19 (TanStack Router/Query) et design system partagé</li></ul>",
+    "stack": ["React", "Hono", "tRPC", "Drizzle", "Typescript", "PostgreSQL"],
+    "context": "Freelance pour Brulance"
   }
 ]
