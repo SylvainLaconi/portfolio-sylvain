@@ -14,7 +14,7 @@ export default function AboutMeSection() {
       <AnimateOnScroll delay={400}>
         <p className="text-justify text-sm leading-loose md:text-lg">
           Ancien cadre dirigeant reconverti en développeur fullstack freelance{' '}
-          <strong>avec 5 ans d’expérience</strong>, je combine{' '}
+          <strong>avec 6 ans d’expérience</strong>, je combine{' '}
           <strong>vision stratégique</strong> et{' '}
           <strong>exécution technique</strong> pour livrer rapidement des
           solutions digitales qui font avancer votre business. <br />
